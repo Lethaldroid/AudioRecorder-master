@@ -1,0 +1,20 @@
+.mainContainer {
+    width: 100%;
+    background: #FF8232;
+    margin-top: 20px;
+    height: 90px;
+    position: relative;
+    border: 5px solid black;
+    border-left: 0;
+    border-right: 0;
+    overflow: hidden;
+}
+
+.redLine {
+    width: 5px;
+    background: red;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 25%;
+}

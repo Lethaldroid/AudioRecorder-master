@@ -1,0 +1,15 @@
+.scrubber.horizontal .bar__progress {
+    height: 29px;
+}
+
+.scrubber .bar__thumb {
+    height: 53px;
+}
+
+.scrubber.hover .bar__thumb {
+    height: 53px;
+}
+
+.scrubber .bar__thumb {
+    height: 53px;
+}

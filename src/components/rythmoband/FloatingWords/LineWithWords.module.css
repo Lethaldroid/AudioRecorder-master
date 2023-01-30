@@ -1,0 +1,28 @@
+.container {
+    position: relative;
+    animation-name: scrolling;
+    animation-timing-function: linear;
+    
+}
+
+@keyframes scrolling {
+    0% {
+      left: 0px;
+    }
+    100% {
+      left: -100%;
+    }
+  }
+
+.dialogue {
+    font-weight: 600;
+    position: absolute;
+    text-align: left;
+    font-size: 19px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.letterContainer {
+  min-width: 3px;
+}

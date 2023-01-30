@@ -1,0 +1,332 @@
+1
+00:00:00,210 --> 00:00:05,830
+Hellooooo! I'm super super excited to start and hopefully you are too.
+
+2
+00:00:05,939 --> 00:00:11,700
+But in order for us to uncover this world of data science and machine learning we need to understand
+
+3
+00:00:11,820 --> 00:00:14,870
+what we are learning and where we're going to end up.
+
+4
+00:00:14,880 --> 00:00:17,660
+So we have a clear path to success.
+
+5
+00:00:17,760 --> 00:00:22,260
+Now this course has over 300+ videos that are broken down into sections.
+
+6
+00:00:22,320 --> 00:00:26,290
+So let's go over the sections so you know what the plan is.
+
+7
+00:00:26,310 --> 00:00:32,540
+First, we start off with a really fun section machine learning 101. what is machine learning? we're
+
+8
+00:00:32,540 --> 00:00:38,940
+going to play around with some fun tools and understand what this whole craze around machine learning is so
+
+9
+00:00:38,940 --> 00:00:42,560
+that you're able to explain this to your friends family and dog.
+
+10
+00:00:42,910 --> 00:00:44,310
+Okay maybe not the dog.
+
+11
+00:00:44,430 --> 00:00:49,650
+Once we get comfortable with the idea of machine learning we understand a history and how we got here
+
+12
+00:00:49,860 --> 00:00:52,460
+and how it works on a high level.
+
+13
+00:00:52,470 --> 00:00:55,050
+We then have two paths for you to follow.
+
+14
+00:00:55,410 --> 00:01:02,820
+One is if you don't know Python or have never programmed in your life. Well we're going to teach you some
+
+15
+00:01:02,820 --> 00:01:06,190
+Python so that you're able to follow the rest of the course.
+
+16
+00:01:06,420 --> 00:01:12,240
+The other path is for those who are already familiar with programming and python and want to just dive
+
+17
+00:01:12,240 --> 00:01:16,700
+straight in so you can pick Python or we keep going with the course.
+
+18
+00:01:16,770 --> 00:01:19,640
+The next part is about work environment.
+
+19
+00:01:19,650 --> 00:01:24,090
+We all want to have a professional setup that you're going to use in real life scenarios.
+
+20
+00:01:24,090 --> 00:01:30,450
+So we're going to introduce you to topics like Jupyter notebooks, Conda and virtual environments so that
+
+21
+00:01:30,510 --> 00:01:33,430
+by the end of the section you have a professional setup.
+
+22
+00:01:33,600 --> 00:01:39,120
+And when you go into work on your first day on the job you understand exactly what you need to install
+
+23
+00:01:39,270 --> 00:01:40,650
+on your computer.
+
+24
+00:01:40,650 --> 00:01:47,440
+We then move on to data analysis how do we analyze this data that we have using libraries like pandas.
+
+25
+00:01:47,730 --> 00:01:54,000
+Then we learn about a very important library when it comes to data science and that is NumPy, a fundamental
+
+26
+00:01:54,000 --> 00:01:56,720
+tool for all data scientists.
+
+27
+00:01:56,760 --> 00:01:59,490
+Then we move on to data visualizations.
+
+28
+00:01:59,520 --> 00:02:04,980
+This is gonna be really fun because we get to work with libraries like matplotlib that allows us to
+
+29
+00:02:04,980 --> 00:02:09,389
+make really neat graphs and visuals to describe our data.
+
+30
+00:02:09,389 --> 00:02:14,380
+We then go into the very popular scikit-learn. If you want to get into machine learning,
+
+31
+00:02:14,490 --> 00:02:21,870
+You need to know this library and scikit-learn allows us to use models and train models and check how
+
+32
+00:02:21,870 --> 00:02:24,770
+accurate our machine learning models are.
+
+33
+00:02:24,930 --> 00:02:30,300
+In that section we're going to learn a complete workflow for a machine learning project.
+
+34
+00:02:30,300 --> 00:02:32,350
+Then things get interesting.
+
+35
+00:02:32,370 --> 00:02:38,450
+This is when we start working on real life project and actually dive deep into machine learning.
+
+36
+00:02:38,550 --> 00:02:43,560
+We're going to learn about supervised learning about neural networks, transfer learning, deep learning.
+
+37
+00:02:43,560 --> 00:02:46,890
+We're going to do projects on classification, regression.
+
+38
+00:02:46,920 --> 00:02:49,650
+We're going to build models around time series data.
+
+39
+00:02:49,650 --> 00:02:52,980
+Now we're not going to shy away from difficult topics here.
+
+40
+00:02:52,980 --> 00:02:58,230
+We're going to introduce you, especially later on in the course, to advanced topics like deep learning,
+
+41
+00:02:58,230 --> 00:03:05,160
+neural networks, and transfer learning and we use the latest version of TensorFlow and Keras to do fun
+
+42
+00:03:05,160 --> 00:03:08,460
+projects like image classifications, transfer learning.
+
+43
+00:03:08,460 --> 00:03:14,780
+We're even going to show you how to use GPUs on your models to accelerate the training.
+
+44
+00:03:14,790 --> 00:03:19,710
+This is going to be a really fun part where we actually work on real life projects and we're going to have
+
+45
+00:03:19,950 --> 00:03:26,860
+notebooks and workbooks by the end of it to show off on your portfolio. We then get into data engineering.
+
+46
+00:03:27,310 --> 00:03:32,830
+Data engineering is actually a whole field in itself but as a data scientist you need to understand
+
+47
+00:03:32,890 --> 00:03:36,340
+what they do and what the big high level concepts are.
+
+48
+00:03:36,430 --> 00:03:42,400
+On topics like Hadoop and Spark so that you know how they're used in the industry and you can communicate
+
+49
+00:03:42,400 --> 00:03:44,230
+with data engineers.
+
+50
+00:03:44,230 --> 00:03:47,670
+This is a part that's often missing in a lot of courses.
+
+51
+00:03:48,010 --> 00:03:54,460
+But one of my favorite parts is this last part: the storytelling and communication. something that we're
+
+52
+00:03:54,460 --> 00:04:00,910
+very excited about because it's a topic so important but often forgotten that is in order for you to
+
+53
+00:04:00,910 --> 00:04:04,150
+be a successful machine learning and data science engineer,
+
+54
+00:04:04,210 --> 00:04:10,890
+You need to be able to communicate your work, present your work to management, to boss, to your co-workers.
+
+55
+00:04:10,990 --> 00:04:16,660
+So using our experience working in the industry we're going to show you how to work on your storytelling and
+
+56
+00:04:16,660 --> 00:04:21,880
+communication to present your project and to really stand out from all your colleagues.
+
+57
+00:04:21,880 --> 00:04:28,660
+Data Science is a popular field and in order for you to succeed we want to go beyond just the basics and
+
+58
+00:04:28,660 --> 00:04:30,880
+communication is a big part of that.
+
+59
+00:04:31,030 --> 00:04:33,170
+As you can see we have a lot to cover here.
+
+60
+00:04:33,190 --> 00:04:36,100
+A lot of videos and a lot of exercises.
+
+61
+00:04:36,100 --> 00:04:38,600
+But I promise you it's going to be a lot of fun.
+
+62
+00:04:38,680 --> 00:04:43,840
+As a matter of fact, we're going to follow a storyline where you get hired at a company and all these
+
+63
+00:04:43,840 --> 00:04:46,970
+tasks are going to be thrown at you by a boss.
+
+64
+00:04:47,170 --> 00:04:53,350
+And we've mimicked these tasks based on our experience working for companies so that when you land your
+
+65
+00:04:53,350 --> 00:04:58,390
+first job... well, you wont have any surprises or at least you're used to the work environment.
+
+66
+00:04:58,390 --> 00:05:03,890
+By the end of it all this is all going to fit in together and make sense from the very beginning of
+
+67
+00:05:03,920 --> 00:05:08,920
+machine learning and data science basics to the very end with building our own projects.
+
+68
+00:05:08,980 --> 00:05:14,770
+We're going to take you from zero to mastery but you know what the best part of this course is? Our online
+
+69
+00:05:14,770 --> 00:05:15,760
+community.
+
+70
+00:05:15,790 --> 00:05:21,070
+We have thousands of developers chatting every day helping each other out solving problems together
+
+71
+00:05:21,380 --> 00:05:26,560
+just talking about the latest and greatest in programming data and the tech world.
+
+72
+00:05:26,560 --> 00:05:31,600
+Now this is an optional resource for you to use so you can have back and forth conversation with other
+
+73
+00:05:31,600 --> 00:05:33,970
+students and myself and Daniel.
+
+74
+00:05:34,060 --> 00:05:39,220
+The ideas for you to feel like you're part of a classroom and you're not doing this all by yourself
+
+75
+00:05:39,880 --> 00:05:40,700
+but you know what?
+
+76
+00:05:40,900 --> 00:05:41,870
+Enough talk.
+
+77
+00:05:41,950 --> 00:05:43,330
+I know you're getting excited.
+
+78
+00:05:43,360 --> 00:05:44,240
+I am too.
+
+79
+00:05:44,260 --> 00:05:46,510
+So let's get started in the next video.
+
+80
+00:05:46,510 --> 00:05:50,120
+It's your first day at work and we're going to start this course.
+
+81
+00:05:50,170 --> 00:05:52,020
+Let's start learning and see why,
+
+82
+00:05:52,020 --> 00:05:57,430
+Being a data scientist has become one of the most in demand skills in the world.
+
+83
+00:05:57,430 --> 00:05:58,120
+Let's get started.
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Read Text File</title>
+  </head>
+
+  <body>
+    <input type="file" onchange="loadFile(this.files[0])" id="inputfile" />
+    <br />
+    <button onclick="makeSubs()">Display Subtitles</button>
+    <br />
+    <pre id="output"></pre>
+
+    <script type="text/javascript">
+      var raw_lines = [];
+      var time = [];
+      var dialogue = [];
+
+      async function loadFile(file) {
+        time.length = 0;
+        dialogue.length = 0;
+        raw_lines.length = 0;
+
+        let text = await file.text();
+        raw_lines = text.split(/\r\n|\n/);
+        raw_lines = raw_lines.filter((e) => e != "");
+        raw_lines = raw_lines.filter((x) => isNaN(x));
+
+        for (var i = 0; i < raw_lines.length; i++) {
+          raw_lines[i] = raw_lines[i].trim();
+        }
+
+        for (var i = 0; i < raw_lines.length - 1; i++) {
+          if (isNaN(raw_lines[i][0]) && isNaN(raw_lines[i + 1][0])) {
+            raw_lines[i] = raw_lines[i] + " " + raw_lines[i + 1];
+            raw_lines.splice(i + 1, 1);
+          }
+        }
+
+        for (var i = 0; i < raw_lines.length; i++) {
+          if (i % 2 == 0) {
+            time.push(raw_lines[i]);
+          } else {
+            dialogue.push(raw_lines[i]);
+          }
+        }
+
+        raw_lines.length = 0;
+
+        for (var i = 0; i < time.length; i++) {
+          time[i][0] = time[i][0].replace(",", ":");
+          time[i][1] = time[i][1].replace(",", ":");
+        }
+        document.getElementById("output").innerHTML = " ";
+      }
+
+      function makeSubs() {
+        for (var i = 0; i < time.length; i++) {
+          document.getElementById("output").innerHTML +=
+            time[i] + "\n" + dialogue[i] + "\n";
+        }
+      }
+    </script>
+  </body>
+</html>
