@@ -31,6 +31,7 @@ export const loadFile = async (file) =>
     {
       raw_lines[i] = raw_lines[i] +" "+ raw_lines[i+1];
       raw_lines.splice(i+1,1);
+      i=0;
     }
   }
 
@@ -44,8 +45,10 @@ export const loadFile = async (file) =>
 
   raw_lines.length = 0;
 
-  for (var i = 0; i < time.length; i++) {
+  for (var i = 0; i < time.length; i++) 
+  {
     time[i] = time[i].split("-->");
+    // console.log(time[i]);
     time[i][0] = time[i][0].replace(",", ":");
     time[i][1] = time[i][1].replace(",", ":");
   }
